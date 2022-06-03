@@ -1,6 +1,7 @@
 import { request } from './request.js';
 
-const url = 'http://localhost:5501/assets/json/animales.json';
+//const url = 'http://localhost:5501/assets/json/animales.json';
+const url = 'https://sudotux.github.io/animales-salvajes/assets/json/animales.json';
 
 const getAnimales = async () => {
     try {
